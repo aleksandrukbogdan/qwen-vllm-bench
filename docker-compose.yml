@@ -1,0 +1,4 @@
+services:
+  eval:
+    build: .
+    command: python -m lab.eval --split check
